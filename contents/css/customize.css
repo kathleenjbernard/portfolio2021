@@ -95,6 +95,62 @@ p {
     font-family: 'nunito', sans-serif;
 }
 
+#contact-heading {
+padding-bottom: 10px;
+}
+
+#contact-box {
+    display: block;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-box-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.contact-icon-wrapper {
+    justify-content: space-between;
+    background-color: #1f1f1f;
+
+}
+
+
+
+.contact-icon {
+    padding-left: 5px;
+    padding-right: 7px;
+    height: 12pt;
+    width: auto;
+}
+
+.lil-bold-letters {
+    font-family: 'nunito', sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    padding-top: 1px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#phone-wrapper {
+    background-image: linear-gradient(to right, #f89e7db7, #d6fa387a 75%, #ecec84a9 85%,    transparent)
+}
+
+#email-wrapper {
+    background-image: linear-gradient(to right, #ee9a7bad, #ffb39773 35%, #ecec8481 70%, transparent)
+}
+
 /*------------------------------------------------------------------
 [2. Footer / Social Media Icons]
 */
@@ -108,7 +164,7 @@ p {
     align-items: center;
     bottom: 0;
     z-index: 3000;
-    background-color: #1f1f1f;
+    background-color: #1f1f1f; /*off black*/
     font-family: 'roboto', monospace;
     text-transform: uppercase;
 }
