@@ -151,6 +151,80 @@ padding-bottom: 10px;
     background-image: linear-gradient(to right, #ee9a7bad, #ffb39773 35%, #ecec8481 70%, transparent)
 }
 
+#about-list li {
+    padding-bottom: 10px;
+}
+
+#about-list li:first-child {
+    padding-top: 10px;
+}
+
+.bold-list-text {
+    padding-top: 15px;
+    color: orangered;
+}
+
+.horizontal-list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.testimonial-wrapper {
+    background-color: #1a1a1a;
+    font-family: 'open sans', sans-serif;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.testimonial-wrapper a,
+    .testimonial-wrapper .alt {
+    color: #fad7aa;
+}
+
+.quote-line-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.testimonial-text {
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+}
+
+.testimonial-text .quote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50pt;
+    font-family: '';
+}
+
+.white {
+    color: white;
+}
+
+.decorative-line {
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+    padding-bottom: 50pt;
+}
+
+
+
 /*------------------------------------------------------------------
 [2. Footer / Social Media Icons]
 */

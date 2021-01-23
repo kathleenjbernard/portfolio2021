@@ -3303,6 +3303,10 @@
     list-style: none
 }
 
+.cbp-1-project-details-list#social {
+    display: flex;
+}
+
 .cbp-l-project-details-list>div,
 .cbp-l-project-details-list>li {
     border-bottom: 1px dotted #DFDFDF;
