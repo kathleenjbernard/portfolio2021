@@ -180,11 +180,14 @@ padding-bottom: 10px;
     font-family: 'open sans', sans-serif;
     width: 100%;
     padding-bottom: 25px;
+    height: 350px;
 }
 
 .testimonial-wrapper a,
     .testimonial-wrapper .alt {
     color: #fad7aa;
+    text-transform: uppercase;
+    font-size: 10pt;
 }
 
 .quote-line-wrapper {
@@ -202,6 +205,7 @@ padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     font-size: 14pt;
+    text-align: center;
 }
 
 .testimonial-text .quote {
@@ -217,12 +221,51 @@ padding-bottom: 10px;
     color: white;
 }
 
-.decorative-line {
-    border-bottom: 1px solid white;
-    margin-bottom: 2rem;
-    padding-bottom: 50pt;
+.testimonial-name {
+    margin-top: 2rem;
 }
 
+#feedback-form-heading {
+    text-align: center;
+}
+
+#form-wrapper {
+    background-color: pink;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+#form-wrapper input,
+    #form-wrapper textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 5px;
+    border: none;
+}
+
+#form-wrapper #name-box {
+    background-color: rgb(255, 255, 0);
+}
+
+#form-wrapper #email-box {
+    background-color: rgb(194, 194, 255);
+}
+
+.input-wrapper {
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+#form-wrapper button {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+}
 
 
 /*------------------------------------------------------------------
