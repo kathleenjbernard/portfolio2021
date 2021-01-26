@@ -159,17 +159,24 @@ padding-bottom: 10px;
 
 .bold-list-text {
     padding-top: 15px;
-    color: orangered;
+    color: black;
+}
+
+.list-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .horizontal-list {
     display: flex;
     list-style: none;
-    width: 100%;
+    width: 300px;
     padding-left: 0;
     margin-left: 0;
     justify-content: space-between;
-    align-items: flex-start;
+    justify-self: center;
+    align-items: center;
 }
 
 .testimonial-wrapper {
@@ -204,6 +211,7 @@ padding-bottom: 10px;
     margin-right: auto;
     font-size: 14pt;
     text-align: center;
+    font-weight: 100;
 }
 
 @media only screen and (max-width: 420px) {
@@ -286,6 +294,92 @@ padding-bottom: 10px;
 }
 
 
+
+/*------------------------------------------------------------------
+[2. Contact Animation]
+*/
+
+#bouncy-text {
+    display: flex;
+    height: 100px;
+    font-size: 60pt;
+    align-items:baseline;
+    justify-content: center;
+}
+
+.bouncy-letter {
+    animation-name: hueShift;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+#bouncy-c {
+    color: #8C745E;
+    animation-duration: 2s;
+}
+
+#bouncy-o {
+    color: #F29F80;
+    animation-duration: 2.1s;
+    animation-delay: 1s;
+}
+
+#bouncy-n {
+    color: #8C745E;
+    animation-duration: 2.2s;
+    animation-delay: 2s;
+}
+
+#bouncy-t {
+    color: #F29F80;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+#bouncy-a {
+    color:#80c8f2;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+#bouncy-c2 {
+    color:#F29F80;
+    animation-duration: 2.1s;
+    animation-delay: 5s;
+}
+
+#bouncy-t2 {
+    color: #5c4e41;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+@keyframes hueShift {
+    0% {
+        filter: none;
+    }
+
+    50% {
+        font-size: 115%;
+        transform: skewY(10deg);
+    }
+
+    75% {
+        font-size: 115%;
+        transform: skewX(-5deg);
+    }
+
+    100% {
+        filter: hue-rotate(180deg);
+        transform: skewY(-10deg);
+    }
+}
+
+
+
 /*------------------------------------------------------------------
 [2. Footer / Social Media Icons]
 */
@@ -300,7 +394,6 @@ padding-bottom: 10px;
     bottom: 0;
     z-index: 3000;
     background-color: #1f1f1f; /*off black*/
-    font-family: 'roboto', monospace;
     text-transform: uppercase;
 }
 
@@ -750,7 +843,7 @@ a:focus {
 }
 
 h2.contact {
-    color: orangered;
+    color: #8C745E;
     padding-top: 1rem;
 }
 
@@ -793,6 +886,26 @@ h2.contact {
     height: 47px;
     line-height: 46px;
 }
+
+.cbp-item .single-btn {
+    width: 100%;
+    color: #fff;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    transition: background .35s, color .2s;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    background: transparent;
+    height: 47px;
+    line-height: 46px;
+}
+
+
+
+
 
 .cbp-item .btn:hover {
     background: #313131;
