@@ -3245,7 +3245,7 @@
 
 .cbp-l-project-desc {
     float: left;
-    width: 62%
+    width: 100%
 }
 
 .cbp-l-project-details {
@@ -3849,7 +3849,8 @@
 .cbp-slider-wrap {
     margin: 0;
     padding: 0;
-    list-style-type: none
+    list-style-type: none;
+    background-color: silver;
 }
 
 .cbp-slider .cbp-nav-controls {
