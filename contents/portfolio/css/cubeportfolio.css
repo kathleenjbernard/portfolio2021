@@ -548,6 +548,12 @@
     .cbp-l-filters-alignLeft {
         text-align: center
     }
+
+    .cbp-caption, 
+    .cbp-caption-activeWrap {
+        display: absolute;
+        z-index: 3000;
+    }
 }
 
 @media only screen and (max-width:374px) {
