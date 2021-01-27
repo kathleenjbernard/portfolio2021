@@ -1044,9 +1044,21 @@ h2.contact {
     margin-top: 16px;
 }
 
+.btn-group.mobile {
+    display: none;
+    background-color: black;
+    font-family: 'open sans condensed', sans-serif;
+}
+
 /*------------------------------------------------------------------
 [6. Responsive Navigation ]
 */
+
+@media (any-hover: none) {
+    .btn-group.mobile {
+        display:inline-flex;
+    }
+}
 
 @media screen and (max-width: 767px) {
 
@@ -1085,11 +1097,6 @@ h2.contact {
 		margin-top: 40px;
 		margin-right: -5px;
     }
-    
-    .cbp-item .btn-group {
-        z-index: 3000;
-    }
-
 }
 
 /*makeshift pie charts*/
