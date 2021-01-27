@@ -1054,12 +1054,6 @@ h2.contact {
 [6. Responsive Navigation ]
 */
 
-@media (any-hover: none) {
-    .btn-group.mobile {
-        display:inline-flex;
-    }
-}
-
 @media screen and (max-width: 767px) {
 
 	.navbar {
@@ -1099,10 +1093,13 @@ h2.contact {
     }
 }
 
-/*makeshift pie charts*/
-
-#ratings-slide {
+@media screen and (max-width: 767px) and (any-hover: none) {
+    .btn-group.mobile {
+        display:inline-flex;
+        font-size: 16pt;
+    }
 }
+
 
 .ratings-slide-header, 
 .header .caption {
