@@ -1095,7 +1095,8 @@ h2.contact {
         font-size: 18pt;
     }
 
-    .cbp-item-wrap {
+    .cbp-item-wrap,
+    .cbp-item-wrap:hover {
         transition: none;
     }
 }
