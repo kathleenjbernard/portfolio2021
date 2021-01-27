@@ -911,6 +911,10 @@ h2.contact {
     line-height: 46px;
 }
 
+.mobile-buttons>.single {
+    width: 100%;
+}
+
 
 
 
