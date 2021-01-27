@@ -911,14 +911,6 @@ h2.contact {
     line-height: 46px;
 }
 
-.mobile-buttons>.single {
-    width: 100%;
-}
-
-
-
-
-
 .cbp-item .btn:hover {
     background: #313131;
     color: #dfdfdf;
@@ -1049,7 +1041,7 @@ h2.contact {
 }
 
 .btn-group.mobile {
-    display: none;
+   display: none;
     background-color: black;
     font-family: 'open sans condensed', sans-serif;
 }
@@ -1101,6 +1093,10 @@ h2.contact {
     .btn-group.mobile {
         display:inline-flex;
         font-size: 18pt;
+    }
+
+    .cbp-item-wrap {
+        transition: none;
     }
 }
 
