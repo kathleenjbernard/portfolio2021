@@ -1096,7 +1096,7 @@ h2.contact {
 @media screen and (max-width: 767px) and (any-hover: none) {
     .btn-group.mobile {
         display:inline-flex;
-        font-size: 16pt;
+        font-size: 18pt;
     }
 }
 
